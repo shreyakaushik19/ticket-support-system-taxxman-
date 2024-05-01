@@ -1,3 +1,9 @@
+This code creates a support_ticketing database and four tables: tickets, categories, users, and comments. The tickets table stores information about each support ticket, including its title, description, category, urgency, and status. The categories table stores information about each category that a ticket can be assigned to. The users table stores information about each user of the support ticketing system, including their name, email, and password. The comments table stores information about each comment that is left on a ticket, including the user who left the comment and the text of the comment.
+
+Note that the comments table includes foreign keys to the tickets and users tables, which establish a relationship between the tables.
+
+
+
 CREATE DATABASE support_ticketing;
 
 USE support_ticketing;
